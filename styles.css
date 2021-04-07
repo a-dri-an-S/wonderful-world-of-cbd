@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Cabin", sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav li:hover {
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Cabin", sans-serif;
+}
+article {
+    padding: 0 5%;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    padding: 0 3%;
+    filter: grayscale(100%);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-cbd {
+    display: flex;
+    flex-direction: row;
+}
+
+.cbd-works {
+    display: flex;
+    flex-direction: row;
+}
+
+.cbd-works-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    padding: 0 20px;
+}
+.article-grey {
+    background-color: lightgray;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+h4 {
+    padding: 50px 0 50px 40px;
+    font-size: 30px;
+}
+
+footer ul {
+    padding: 60px 60px;
+    font-size: 20px;
+}
